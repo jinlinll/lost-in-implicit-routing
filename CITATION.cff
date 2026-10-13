@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper when using this research code."
+type: software
+repository-code: "https://github.com/jinlinll/lost-in-implicit-routing"
+title: "Lost in Implicit Routing: How LLM Agents Fail to Load Relevant Skills at Scale"
+authors:
+  - family-names: Liu
+    given-names: Jinlin
+  - family-names: Chen
+    given-names: Wei
+  - family-names: Zhang
+    given-names: Xiaojin
+abstract: "Research code for diagnosing skill routing collapse and evaluating explicit preselection as a practical mitigation."

@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+skillsbench/
+skills_scaling_study/.agents/
+skills_scaling_study/experiment_logs*/
+skills_scaling_study/rag_precomputed/
+skills_scaling_study/analysis/
+*.log
+*.zip
+*.tar.gz

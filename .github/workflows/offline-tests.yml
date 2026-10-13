@@ -1,0 +1,21 @@
+name: Offline validation
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install -r skills_scaling_study/requirements.txt
+      - run: python scripts/check_source_index.py
+      - run: python -B -m unittest -v test_routing
+        working-directory: skills_scaling_study
+      - run: python run_study.py --strategy naive --models glm-5 --tasks adaptive-cruise-control --counts 0 --passes 1
+        working-directory: skills_scaling_study
