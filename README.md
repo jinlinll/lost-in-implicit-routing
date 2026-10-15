@@ -112,6 +112,10 @@ If you find this work useful, please cite:
 }
 ```
 
+## License
+
+Our code is released under the [MIT License](LICENSE). The paper and its figures are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). SkillsBench and third-party skills retain their original licenses; see [NOTICE](NOTICE.md).
+
 ## Acknowledgments
 
 We thank the creators of SkillsBench and the upstream skills used in this study. Third-party materials remain subject to their original licenses. See [NOTICE](NOTICE.md) for licensing information.

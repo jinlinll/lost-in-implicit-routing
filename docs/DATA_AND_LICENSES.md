@@ -19,4 +19,4 @@ Obtain tasks from [SkillsBench](https://github.com/benchflow-ai/skillsbench). [T
 
 ## Code
 
-The authors' code license is pending confirmation. Third-party materials retain their original licenses; see [NOTICE](../NOTICE.md).
+The authors' original code and software documentation use the [MIT License](../LICENSE). The paper and its figures use [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party materials retain their original licenses; see [NOTICE](../NOTICE.md).

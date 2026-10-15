@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite the accompanying paper when using this research code."
 type: software
+license: MIT
 repository-code: "https://github.com/jinlinll/lost-in-implicit-routing"
 title: "Lost in Implicit Routing: How LLM Agents Fail to Load Relevant Skills at Scale"
 authors:
