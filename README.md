@@ -1,6 +1,8 @@
 # Lost in Implicit Routing: How LLM Agents Fail to Load Relevant Skills at Scale
 
-This repository contains the official implementation of **Lost in Implicit Routing: How LLM Agents Fail to Load Relevant Skills at Scale**.
+This repository contains the official implementation of **[Lost in Implicit Routing: How LLM Agents Fail to Load Relevant Skills at Scale](https://arxiv.org/abs/2610.18522)**.
+
+[Paper](https://arxiv.org/abs/2610.18522) · [PDF](https://arxiv.org/pdf/2610.18522)
 
 We study how LLM agents use skills as their libraries grow. Agents increasingly load fewer or no skills, even when relevant skills remain available. Our experiments investigate semantic and instruction interference and evaluate explicit preselection as a practical mitigation.
 
@@ -100,10 +102,13 @@ If you find this work useful, please cite:
 
 ```bibtex
 @misc{liu2026lostimplicitrouting,
-  title = {Lost in Implicit Routing: How LLM Agents Fail to Load Relevant Skills at Scale},
+  title = {Lost in Implicit Routing: How {LLM} Agents Fail to Load Relevant Skills at Scale},
   author = {Liu, Jinlin and Chen, Wei and Zhang, Xiaojin},
   year = {2026},
-  note = {Preprint}
+  eprint = {2610.18522},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.AI},
+  url = {https://arxiv.org/abs/2610.18522}
 }
 ```
 

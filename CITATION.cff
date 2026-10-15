@@ -11,3 +11,19 @@ authors:
   - family-names: Zhang
     given-names: Xiaojin
 abstract: "Research code for diagnosing skill routing collapse and evaluating explicit preselection as a practical mitigation."
+preferred-citation:
+  type: article
+  title: "Lost in Implicit Routing: How LLM Agents Fail to Load Relevant Skills at Scale"
+  authors:
+    - family-names: Liu
+      given-names: Jinlin
+    - family-names: Chen
+      given-names: Wei
+    - family-names: Zhang
+      given-names: Xiaojin
+  year: 2026
+  journal: arXiv
+  identifiers:
+    - type: other
+      value: "arXiv:2610.18522"
+  url: "https://arxiv.org/abs/2610.18522"
